@@ -1,0 +1,14 @@
+{
+  "name": "tsconfig-ava",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "tsc && ava"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^2.0.0",
+    "ava": "^4.2.0",
+    "typescript": "^4.7.2"
+  }
+}
